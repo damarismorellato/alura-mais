@@ -1,9 +1,9 @@
 :root {
     --branco-principal: #fff;
     --cinza-secundario: #C0C0C0;
-    --botao-azul:#167BF7;
+    --botao-azul: #167BF7;
     --cor-de-fundo: #00030c;
-    --fonte-principal:'inter';
+    --fonte-principal: 'inter';
 }
 
 * {
@@ -13,13 +13,13 @@
 
 body {
     background-color: var(--cor-de-fundo);
-    color:var(--branco-principal);
+    color: var(--branco-principal);
     font-family: "Inter";
     font-size: 16px;
     font-weight: 400;
 }
 
-.principal{
+.principal {
     background-image: url(img/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -41,6 +41,7 @@ body {
 .container__img {
     margin: 2em 0;
 }
+
 .container__botao {
     background-color: var(--botao-azul);
     padding: 1em;
@@ -48,7 +49,7 @@ body {
     border-radius: 5px;
     text-decoration: none;
     display: block;
-    margin-bottom:1em ;
+    margin-bottom: 1em;
 }
 
 .botao_secundario {
@@ -63,4 +64,24 @@ body {
 
 .container__caixa {
     margin: 0 6em;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-size: 48px;
+    margin-bottom: 0.1em;
+    font-weight: 700;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+.secundario_botao {
+    margin-top: 0.3em;
+    display: inline-block;
 }
